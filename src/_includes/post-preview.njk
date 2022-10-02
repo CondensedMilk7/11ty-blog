@@ -1,0 +1,15 @@
+<li class="blog-preview">
+    <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
+    <div class="blog-preview__details">
+        <div>
+            <h1>{{ post.data.title }}</h1>
+            <p class="blog-preview__date">{{ post.data.date | dateString }}</p>
+            <p>{{ post.data.description }}</p>
+        </div>
+        <div class="blog-preview__actions">
+            <a href="{{ post.url }}">
+                <h3>READ</h3>
+            </a>
+        </div>
+    </div>
+</li>

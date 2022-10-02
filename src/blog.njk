@@ -1,0 +1,12 @@
+---
+layout: "base.njk"
+title: "Blog"
+---
+
+<div class="blogs">
+    <ul>
+        {%- for post in collections.post | reverse -%}
+            {% include "post-preview.njk" %}
+        {%- endfor -%}
+    </ul>
+</div>

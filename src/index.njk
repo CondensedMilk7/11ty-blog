@@ -1,0 +1,13 @@
+---
+layout: "base.njk"
+title: "Home"
+---
+
+<div class="home-container">
+    <h1>Featured Posts</h1>
+    <ul>
+        {%- for post in collections.featured -%}
+            {% include "post-preview.njk" %}
+        {%- endfor -%}
+    </ul>
+</div>

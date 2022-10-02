@@ -1,0 +1,9 @@
+<header>
+    <h3>My Blog</h3>
+    <nav>
+        <ul>
+            <li><a href="/"class="{{ "active" if page.url === "/" }}">Home</a></li>
+            <li><a href="/blog"class="{{ "active" if "/blog" in page.url }}">Blog</a></li>
+        </ul>
+    </nav>
+</header>
