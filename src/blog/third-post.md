@@ -3,7 +3,6 @@ title: "Third Post"
 date: 2022-09-10
 description: "This is the third post on my 11ty site. Never gonna give you up, never gonna let you down, never gonna run around and desert you."
 image: "/assets/images/my-cat-3.jpg"
-tags: "featured"
 imageAlt: "Picture of a cat"
 ---
 
